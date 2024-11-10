@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Codexium</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="course">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Codexium</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="aboutosn.html">About OSN</a></li>
+          <li class="dropdown"><a href="course.html"><span>Courses</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="course-intro.html">Intro to CP</a></li>
+              <li><a href="course-brute.html">Brute Force</a></li>
+              <li><a href="course-sort.html">Search & Sort</a></li>
+            </ul>
+          </li>
+          <li><a href="#problem.html">Problems</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#course">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main"><section class="services section light-background course">
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h1>Introduction to Competitive Programming</h1>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="container py-5">
+      <div class="row bg-light">
+          <div class="col-md-4 d-none d-md-block bg-white">
+              <div class="lc-block">
+                  <nav id="lc-scrollspy-navbar" class="navbar light-background flex-column align-items-stretch p-3">
+                      <a class="navbar-brand" href="#">Table of Content:</a>
+                      <nav class="nav nav-pills flex-column">
+                          <a class="nav-link" href="#sp-item-1">Chapter 1</a>
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1" href="#sp-item-1-2">Chapter 1.2</a>
+                              <a class="nav-link ms-3 my-1" href="#sp-item-1-3">Chapter 1.3</a>
+                          </nav>
+                          <a class="nav-link" href="#sp-item-2">Chapter 2</a>
+                          <a class="nav-link" href="#sp-item-3">Chapter 3</a>
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1" href="#sp-item-3-2">Chapter 3.1</a>
+                              <a class="nav-link ms-3 my-1" href="#sp-item-3-3">Chapter 3.2</a>
+                          </nav>
+                      </nav>
+                  </nav>
+              </div><!-- /lc-block -->
+          </div><!-- /col -->
+          <div class="col-md-8 bg-light  ">
+              <div class="position-relative" style="height: 80vh; overflow: auto;" data-bs-spy="scroll" data-bs-target="#lc-scrollspy-navbar" data-bs-offset="0" tabindex="0">
+
+                  <div id="sp-item-1" class="lc-block border-bottom card-body mt-3">
+                      <div editable="rich">
+
+                          <h1>Apa itu Pemrograman Kompetitif?</h1>
+
+                          <p>Pemrograman kompetitif adalah kegiatan penyelesaian soal yang terdefinisi dengan
+                              jelas dengan menulis program komputer dalam batasan-batasan tertentu (memori dan
+                              waktu). Terdapat tiga aspek pada definisi tersebut, yaitu: </p>
+
+                          <ol>
+                              <li>Soal terdefinisi dengan jelas. Artinya diketahui dengan jelas apa maksud soal dan
+                                  tidak ada keambiguan. Seluruh variabel pada soal diberikan batasan nilainya.</li>
+                              <li>Diselesaikan dengan menulis program komputer. Program komputer yang dimaksud
+                                  adalah program sederhana yang berjalan pada command line, tanpa perlu adanya
+                                  user interface seperti halaman website atau GUI (Graphic User Interface ).
+                                  Program hanya perlu membaca masukan dan menghasilkan keluaran.</li>
+                              <li>Memenuhi batasan yang diberikan. Umumnya batasan ini berupa batas waktu dan memori. Program yang ditulis harus mampu bekerja mulai dari membaca masukan sampai dengan mencetak keluaran tidak lebih dari batas waktu dan memori yang
+                                  diberikan.</li>
+                          </ol>
+
+                          <p>Kita akan memahami lebih dalam tentang pemrograman kompetitif melalui contoh
+                              soal, yang akan dijelaskan pada bagian berikutnya.</p>
+                      </div>
+                  </div>
+                  <div id="sp-item-1-2" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1>Contoh Soal Pemrograman Kompetitif</h1>
+
+                          <P>Mari perhatikan contoh soal berikut.</P>
+                          <div class="container border border-secondary">
+                              <p class="fs-5 mt-2"><b>Contoh Soal 1.1: Lampu dan Tombol</b></p>
+                              <blockquote>
+                                  Batas waktu: 1 detik
+                                  <br>Batas memori: 64 MB
+                              </blockquote>
+                              
+                              <p>Terdapat N tombol yang dinomori dari 1 hingga N dan sebuah lampu dalam keadaan mati. Apabila tombol ke-i ditekan, keadaan lampu akan berubah (dari mati menjadi menyala, atau sebaliknya) apabila N habis dibagi oleh i. Apabila masing-masing tombol ditekan tepat sekali, bagaimana keadaan lampu pada akhirnya? 
+
+                                  <p>
+                                      <b>Format Masukan</b>
+                                      <br>Sebuah baris berisi sebuah bilangan, yaitu N.
+                                  </p>
+
+                                  
+                                  <p>
+                                      <b>Format Keluaran</b>
+                                      <br>Sebuah baris berisi:
+                                  </p>
+
+                                  <ul>
+                                      <li>"lampu mati", apabila keadaan akhir lampu adalah mati.</li>
+                                      <li>"lampu menyala", apabila keadaan akhir lampu adalah menyala.</li>
+                                  </ul>
+
+                                  <p><b>Contoh Masukan 1</b></p>
+                                  <div class="container masukan">
+                                     <p><code>5</code></p>
+                                  </div>
+                                  
+                                  <p><b>Contoh Keluaran 1</b></p>
+                                  <div class="container masukan">
+                                      <p><code>lampu mati</code></p>
+                                  </div>
+                                  
+                                  <p><b>Contoh Masukan 1</b></p>
+                                  <div class="container masukan">
+                                      <p><code>4</code></p>
+                                  </div>
+                                  
+                                  <p><b>Contoh Masukan 1</b></p>
+                                  <div class="container masukan">
+                                      <p><code>lampu menyala</code></p>
+                                  </div>
+
+                                  <p>
+                                      <b>Penjelasan</b>
+                                      <br>Pada contoh pertama, tombol yang mempengaruhi keadaan 
+                                      lampu adalah tombol 1 dan tombol 5. Penekanan tombol 1 
+                                      mengakibatkan lampu menjadi menyala, dan penekanan tombol 
+                                      5 mengembalikannya ke keadaan mati. Pada contoh kedua, 
+                                      tombol yang mempengaruhi keadaan lampu adalah tombol 1, 
+                                      tombol 2, dan tombol 4. Penekanan tombol 1 mengakibatkan 
+                                      lampu menjadi menyala, penekanan tombol 2 mengembalikannya 
+                                      ke keadaan mati, dan penekanan tombol 4 menjadikan lampu 
+                                      kembali menyala.
+                                  </p>
+                                  
+                                  <p>
+                                      <b>Batasan</b>
+                                      <br>1 &le; N &le; 10<sup>18</sup>
+                                  </p>
+                          </div>
+
+                          <p>
+                              Seperti yang tertera pada contoh soal Lampu dan Tombol, soal pemrograman kompetitif memiliki batasan-batasan yang jelas. Pada soal tersebut, tertera bahwa batasan waktu adalah 1 detik. Artinya, program Anda harus memiliki running time tidak melebihi 1 detik. Batasan memori 64 MB menyatakan bahwa program Anda juga tidak boleh memakan memori lebih dari batasan tersebut. Terakhir, terdapat batasan masukan, yakni berupa 1 ≤ N ≤ 1018. Artinya program Anda diharuskan dapat menyelesaikan soal tersebut untuk nilai N yang diberikan. Batasan ini juga menjamin bahwa program Anda tidak akan diuji dengan nilai-nilai di luar batasan.
+                          </p>
+
+                          <p class="fs-4 fw-semibold">Solusi sederhana</p>
+
+                          <p>Strategi yang paling sederhana adalah dengan menyimulasikan skenario pada deskripsi
+                              soal:</p>
+                          
+                          <ul>
+                              <li>Mulai dari tombol ke-1, dipastikan keadaan lampu akan berubah (N habis dibagi 1).</li>
+                              <li>Lanjut ke tombol ke-2, periksa apakah 2 habis membagi N. Bila ya, ubah keadaan
+                                  lampu.</li>
+                              <li>Lanjut ke tombol ke-3, periksa apakah 3 habis membagi N. Bila ya, ubah keadaan
+                                  lampu.</li>
+                              <li>...dan seterusnya hingga tombol ke-N.</li>
+                          </ul>
+
+                          <p>Setelah selesai disimulasikan, periksa keadaan lampu ruangan ke-N dan cetak jawabannya.</p>
+                      
+                          <p>Berikut adalah implementasi solusi sederhana ini dalam C++:</p>
+
+                          <div class="container masukan"><pre><code>
+#include &lt;iostream&gt;
+using namespace std ;
+int main () {
+  long long N;
+  cin >> N ;
+  int divisorCount = 0;
+  for ( long long i = 1; i &lt;= N; i ++) {
+      if (N % i == 0) {
+      divisorCount ++;
+      }
+  }
+  if ( divisorCount % 2 == 0) {
+      cout &lt;&lt; " lampu_mati " &lt;&lt; endl ;
+  } else {
+      cout &lt;&lt; " lampu_menyala " &lt;&lt; endl ;
+  }
+}
+                          </code></pre></div>
+
+                          <p>Untuk masukan N, program sederhana ini melakukan N buah pengecekan. Artinya
+                              pada kasus terburuk, program tersebut akan melakukan N = 10<sup>18</sup> buah pengecekan! Jika
+                              kita asumsikan komputer sekarang dapat melakukan 10<sup>8</sup> operasi per detik, program ini
+                              memerlukan waktu 10 tahun untuk menyelesaikan hitungan! Program ini hanya akan
+                              bekerja untuk nilai N yang kecil. Untuk N yang lebih besar, misalnya N = 10<sup>9</sup>
+                              , kemungkinan besar diperlukan waktu lebih dari 1 detik. Solusi ini tidak akan mendapatkan nilai penuh,
+                              atau bahkan 0, tergantung skema penilaian yang digunakan.</p>
+
+                          <p class="fs-4 fw-semibold">Solusi yang Lebih Baik</p>
+
+                          <p>Dengan sedikit observasi, yang sebenarnya perlu dilakukan adalah menghitung banyaknya pembagi dari N. Apabila banyaknya pembagi ganjil, berarti pada akhirnya lampu di
+                              ruangan ke-N akan menyala. Demikian pula sebaliknya, apabila genap, berarti lampu di
+                              ruangan ke-N akan mati.
+                              </p>
+
+                          <p>Diperlukan suatu cara untuk menghitung banyaknya pembagi dari N dengan efisien.
+                              Salah satu caranya adalah dengan melakukan faktorisasi prima terlebih dahulu. Misalkan
+                              untuk N = 12, maka faktorisasi primanya adalah 2<sup>2</sup> × 3. Berdasarkan faktorisasi prima ini,
+                              suatu bilangan merupakan pembagi dari 12 apabila dipenuhi:
+                              </p>
+                          
+                          <ul>
+                              <li>Memiliki faktor 2 maksimal sebanyak 2.</li>
+                              <li>Memiliki faktor 3 maksimal sebanyak 1.</li>
+                              <li>Tidak boleh memiliki faktor lainnya.</li>
+                          </ul>
+
+                          <p>Sebagai contoh, berikut daftar seluruh pembagi 12:</p>
+
+                          <ul>
+                              <li>1 = 2<sup>0</sup> × 3<sup>0</sup></li>
+                              <li>2 = 2<sup>1</sup> × 3<sup>0</sup></li>
+                              <li>3 = 2<sup>0</sup> × 3<sup>1</sup></li>
+                              <li>4 = 2<sup>2</sup> × 3<sup>0</sup></li>
+                              <li>6 = 2<sup>1</sup> × 3<sup>1</sup></li>
+                              <li>12 = 2<sup>2</sup> × 3<sup>1</sup></li>
+                          </ul>
+
+                          <p>Banyaknya pembagi dari 12 sebenarnya sama saja dengan banyaknya kombinasi yang bisa dipilih dari {2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>} dan {3<sup>0</sup>, 3<sup>1</sup>}. Banyaknya kombinasi sama dengan mengalikan banyaknya elemen pada tiap-tiap himpunan. Sehingga, banyaknya cara adalah 3×2 = 6 cara. Dengan demikian, banyaknya pembagi dari 12 adalah 6. Cara ini juga berlaku untuk nilai N yang lain. Misalnya N = 172.872 = 2<sup>3</sup> ×3<sup>2</sup> ×7<sup>4</sup>. Berarti banyak pembaginya adalah 4×3×5 = 60.</p>
+                      </div>
+                      
+                      <p>Secara Umum, banyaknya pembagi dari:</p>
+                      <!-- TBA equation -->
+
+                      adalah:
+
+                      <!-- TBA equation -->
+
+                      <p>Jadi pencarian banyaknya pembagi dapat dilakukan dengan melakukan faktorisasi prima pada N, lalu hitung banyak pembaginya dengan rumus tersebut. Anda cukup melakukan pengecekan sampai √N saja untuk melakukan faktorisasi bilangan N.
+                      </p>
+
+                      <p>Berikut adalah implementasi solusi ini dalam C++:</p>
+
+                      <div class="container masukan"><pre><code>
+#include &lt;iostream&gt;
+using namespace std ;
+int main () {
+  long long N;
+  cin >> N ;
+  int divisorCount = 0;
+  for ( long long i = 1; i &lt;= N; i ++) {
+      if (N % i == 0) {
+          divisorCount ++;
+      }
+  }
+  if ( divisorCount % 2 == 0) {
+      cout &lt;&lt; " lampu ␣ mati " &lt;&lt; endl ;
+  } else {
+      cout &lt;&lt; " lampu ␣ menyala " &lt;&lt; endl ;
+  }
+}
+                      </code></pre></div>
+
+                      <p>Untuk masukan N, program sederhana ini melakukan N buah pengecekan. Artinya pada kasus terburuk, program tersebut akan melakukan N = 10<sup>18</sup> buah pengecekan! Jika kita asumsikan komputer sekarang dapat melakukan 10<sup>8</sup> operasi per detik, program ini memerlukan waktu 10 tahun untuk menyelesaikan hitungan! Program ini hanya akan bekerja untuk nilai N yang kecil. Untuk N yang lebih besar, misalnya N = 10<sup>9</sup>, kemungkinan besar diperlukan waktu lebih dari 1 detik. Solusi ini tidak akan mendapatkan nilai penuh, atau bahkan 0, tergantung skema penilaian yang digunakan.</p>
+
+                      <p class="fs-4 fw-semibold">Solusi yang Lebih Baik Lagi!</p>
+                  </div>
+
+                  <div id="sp-item-1-3" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1></h1>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim civitas in seditione beata esse potest nec in discordia dominorum domus; <b>Duo Reges: constructio interrete.</b> Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Cur igitur, cum de re conveniat, non malumus usitate loqui? <code>Sin aliud quid voles, postea.</code> <b>Nunc vides, quid faciat.</b> </p>
+
+                          <p>Quo studio cum satiari non possint, omnium ceterarum rerum obliti níhil abiectum, nihil humile cogitant; Quid est igitur, inquit, quod requiras? Quod autem ratione actum est, id officium appellamus. Si in ipso corpore multa voluptati praeponenda sunt, ut vires, valitudo, velocitas, pulchritudo, quid tandem in animis censes? <b>Est, ut dicis, inquam.</b> Minime vero, inquit ille, consentit. <a href="http://loripsum.net/" target="_blank" rel="noopener">Magna laus.</a> Nunc omni virtuti vitium contrario nomine opponitur. </p>
+
+                          <pre>Idque quo magis quidam ita faciunt, ut iure etiam
+reprehendantur, hoc magis intellegendum est haec ipsa nimia
+in quibusdam futura non fuisse, nisi quaedam essent modica
+natura.
+
+Huc et illuc, Torquate, vos versetis licet, nihil in hac
+praeclara epistula scriptum ab Epicuro congruens et
+conveniens decretis eius reperietis.
+</pre>
+
+
+                          <h2>Quid de Pythagora?</h2>
+
+                          <p>Aut, Pylades cum sis, dices te esse Orestem, ut moriare pro amico? <code>Sed hoc sane concedamus.</code> Praeteritis, inquit, gaudeo. <code>Tubulo putas dicere?</code> <i>At multis malis affectus.</i> <a href="http://loripsum.net/" target="_blank" rel="noopener">Ergo, inquit, tibi Q.</a> </p>
+
+                          <ul>
+                              <li>Multa sunt dicta ab antiquis de contemnendis ac despiciendis rebus humanis;</li>
+                              <li>Sumenda potius quam expetenda.</li>
+                              <li>Qui-vere falsone, quaerere mittimus-dicitur oculis se privasse;</li>
+                          </ul>
+
+
+                          <blockquote cite="http://loripsum.net">
+                              Nihilne te delectat umquam -video, quicum loquar-, te igitur, Torquate, ipsum per se nihil delectat?
+                          </blockquote>
+
+
+                          <p><code>Igitur ne dolorem quidem.</code> Multoque hoc melius nos veriusque quam Stoici. Quia nec honesto quic quam honestius nec turpi turpius. Praeteritis, inquit, gaudeo. Te enim iudicem aequum puto, modo quae dicat ille bene noris. <i>Maximus dolor, inquit, brevis est.</i> Quantum Aristoxeni ingenium consumptum videmus in musicis? Totum genus hoc Zeno et qui ab eo sunt aut non potuerunt aut noluerunt, certe reliquerunt. Non enim solum Torquatus dixit quid sentiret, sed etiam cur. </p>
+
+
+                      </div>
+                  </div>
+                  <div id="sp-item-2" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1>Mengenal Kompetisi Pemrograman</h1>
+
+                          <p>Ada banyak kompetisi pemrograman dengan tingkatan yang beragam. Pada subbab ini, kita akan fokus pada 2 format kompetisi yang cukup besar, yaitu format IOI dan format ACM-ICPC. </p>
+
+                      </div>
+                  </div>
+                  <div id="sp-item-2-1" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1>Olimpiade Sains Nasional dan <i>International Olympiad in Informatics</i></h1>
+
+                          <p>Olimpiade Sains Nasional (OSN) merupakan kompetisi tahunan yang diselenggarakan oleh Kementerian Pendidikan dan Kebudayaan Indonesia. OSN merupakan kompetisi nasional untuk siswa SMA dan setingkat. Terdapat beberapa bidang pada OSN, termasuk salah satunya bidang informatika. Untuk dapat berpartisipasi pada OSN, Anda harus terlebih dahulu mengikuti dan lolos pada Olimpiade Sains Kabupaten dan Olimpiade Sains Provinsi pada bidang yang bersangkutan.</p>
+
+                          <p><i>International Olympiad of Informatics</i> (IOI) merupakan kompetisi pemrograman internasional untuk SMA dan sederajat, yang mana masing-masing negara mengirimkan paling banyak 4 perwakilan. Khusus Indonesia, 4 perwakilan akan dipilih setelah melalui 3 tahap seleksi pada Pelatihan Nasional (Pelatnas). Mulanya, 30 siswa-siswi terbaik OSN akan diikutkan Pelatnas 1. Kemudian disaring 16 besar untuk diikutkan ke Pelatnas 2. Kemudian akan disaring lagi menjadi 8 besar untuk mengikuti Pelatnas 3. Terakhir, akan disaring menjadi 4 besar sebagai perwakilan dalam ajang IOI.</p>
+
+                          <p>Format OSN dan IOI</p>
+
+                          <p>OSN Informatika maupun IOI diselenggarakan dalam 3 hari. Hari pertama merupakan hari uji coba, yang mana Anda akan diberikan soal-soal pemrograman kompetitif yang relatif mudah. Poin yang didapatkan pada hari pertama ini tidak dihitung sama sekali untuk penentuan hasil akhir. Kompetisi sesungguhnya ada pada hari kedua dan ketiga. Pada masing-masing hari, Anda akan diberikan 3-4 soal pemrograman yang harus diselesaikan selama 5 jam. Peringkat akhir akan dilihat dari total poin yang didapatkan setiap peserta. Waktu, durasi, dan urutan pengerjaan soal tidak mempengaruhi penilaian akhir.</p>
+
+                          <p>Bentuk Soal</p>
+
+                          <p>Soal OSN dan IOI akan dibagi menjadi beberapa <strong>subsoal</strong>. Setiap subsoal memiliki batasan-batasan masukan khusus dan poin masing-masing. Untuk mendapatkan nilai sempurna pada suatu soal, program Anda harus bisa menyelesaikan masalah untuk setiap subsoal. Sebagai contoh, perhatikan soal berikut.</p>
+
+                          <p>Soal ini sama dengan soal Lampu dan Tombol. Kali ini, terdapat 3 subsoal berbeda. Dengan mengimplementasikan solusi naif, Anda hanya akan mendapatkan 30 dari total 100 poin. Selain itu, terdapat 3 jenis soal yang umum digunakan pada kompetisi setipe OSN/IOI:</p>
+
+                          <ol>
+                              <li><i>Batch</i>, yang merupakan jenis soal yang paling umum. Anda diminta untuk membuat program yang membaca masukan dan mencetak keluaran. Kasus uji untuk masukan dan keluaran setiap soal telah disediakan oleh tim juri, dan bersifat rahasia. Program Anda mendapatkan nilai apabila keluaran yang dihasilkan sesuai dengan keluaran dari tim juri. Soal Lampu dan Tombol merupakan contoh soal bertipe <i>batch</i>. </li>
+                              <li>Interaktif, yang mana Anda diminta membuat program untuk berinteraksi dengan program dari tim juri. Anda mendapatkan nilai apabila suatu tujuan dari interaksi tercapai. </li>
+                              <li><i>Output only</i>, yang mirip dengan jenis soal <i>batch</i>. Perbedaannya adalah Anda diberikan masukan untuk seluruh kasus uji, dan Anda hanya perlu mengumpulkan keluaran dari masing-masing kasus uji tersebut. Dengan demikian, waktu eksekusi dan memori yang digunakan hanya terbatas pada waktu kompetisi dan kapasitas mesin yang Anda gunakan.</li>
+                          </ol>
+
+                          <p>Kurikulum OSN</p>
+
+                          <p>Secara umum, kurikulum OSN mengikuti kurikulum dari IOI. Buku ini kami rancang berbasiskan kurikulum OSN. Setiap materi-materi yang dapat diujikan pada OSN tercakup dalam buku ini.</p>
+
+                          <p>ACM-ICPC</p>
+
+                          <p>ACM-ICPC merupakan kompetisi pemrograman tingkat internasional yang ditujukan untuk mahasiswa. Kompetisi ini dilakukan secara tim yang terdiri dari 3 orang. ACM-ICPC terdiri dari ACM-ICPC Regionals dan ACM-ICPC World Finals. Anda harus mengikuti kontes regional terlebih dahulu. Jika Anda mendapatkan peringkat atas pada regional, Anda akan diundang untuk mengikuti ACM-ICPC World Finals.</p>
+
+                          <p>Format ACM-ICPC</p>
+
+                          <p>ACM-ICPC diselenggarakan dalam 1 hari. Waktu kontes ACM-ICPC adalah 5 jam, sama seperti OSN. Namun bedanya, jumlah soal yang diberikan jauh lebih banyak, biasanya berkisar antara 7 sampai 12 soal. Selain itu, ACM-ICPC tidak mengenal penilaian parsial. Dengan kata lain, tidak terdapat subsoal pada soal-soal ACM-ICPC.</p>
+
+                          <p>Penilaian akhir dihitung dari banyaknya soal yang berhasil diselesaikan (mendapatkan accepted ). Jika ada 2 tim dengan jumlah <i>accepted</i> yang sama, maka urutan ditentukan berdasarkan penalti waktu. Nilai penalti dihitung dari waktu saat soal terselesaikan, ditambah dengan beberapa poin untuk setiap pengumpulan solusi yang tidak accepted.</p>
+
+                          <p>Kurikulum ACM-ICPC</p>
+
+                          <p>Kurikulum ACM-ICPC sangat luas. Buku ini mencakup materi-materi dasar dan cocok jika Anda baru belajar pemrograman kompetitif. Untuk mempersiapkan diri lebih dalam, disarankan untuk mencari referensi-referensi tambahan seperti buku <i>Competitive Programming 3</i> 4 maupun forum-forum diskusi pemrograman kompetitif, juga diimbangi dengan latihan.</p>
+
+                          <p>Penulisan Kode</p>
+
+                          <p>Terdapat perbedaan antara kode program yang ditulis untuk kompetisi dan industri. Perbedaan ini disebabkan karena lainnya karakter program untuk kedua kebutuhan tersebut.</p>
+                          <p>Program yang ditulis pada pemrograman kompetitif biasanya berumur pendek. Artinya, program yang ditulis tidak perlu diurus dan tidak akan digunakan untuk kebutuhan pada masa mendatang. Lain halnya dengan program yang ditujukan untuk industri, yang mana program tetap digunakan dan perlu dimodifikasi seiring dengan berjalannya waktu. Program pada dunia industri juga harus memperhatikan integrasi dengan komponen program lainnya.</p>
+                          <p>Oleh sebab itu, kode program untuk kompetisi tidak perlu menomorsatukan faktorfaktor yang mempermudah pemeliharaan kode seperti kemudahan dibaca (<i>readability</i>) dan struktur yang memaksimalkan daya daur ulang (<i>reusability</i>). Sebagai tambahan, mengurangi perhatian pada faktor-faktor tersebut akan membantu penulisan kode pada kompetisi dengan lebih cepat. Namun perlu diperhatikan bahwa kode sebaiknya ditulis dengan rapi agar mudah dibaca, dan menghindari adanya kesalahan program (<i>bug</i>).</p>
+                          <p>Kode program yang ditulis pada buku ini akan menggunakan gaya kompetitif, yang biasanya bersifat prosedural. Kode akan ditulis sebagaimana adanya dengan fokus untuk menunjukkan alur algoritma.</p>
+
+                          <p>Perkenalan Pseudocode</p>
+
+                          <p>Pada buku ini, kode akan dituliskan dengan <i><strong>pseudocode</strong></i>. <i>Pseudocode</i> merupakan <strong>bahasa informal</strong> yang mirip dengan bahasa pemrograman untuk mendeskripsikan program. Bahasa ini biasa digunakan pada materi pembelajaran algoritma, sehingga pembaca tidak perlu mempelajari suatu bahasa pemrograman tertentu. <i>Pseudocode</i> sendiri bukanlah bahasa pemrograman sungguhan.</p>
+
+                          <p><strong>Algoritma 1</strong> Contoh <i>pseudocode</i> algoritma insertion sort untuk mengurutkan <i>array</i> A yang memiliki panjang N.</p>
+
+                          <div class="container masukan"><pre><code>
+procedure insetionSort(A,N)
+  for i ← 2, N do
+      j ← i
+      while (j &gt; 1)∧(A[ j] &lt; A[ j −1]) do
+          SWAP(A[ j], A[ j −1])
+              j ← j −1
+      end while
+  end for
+end procedure     
+                          </code></pre></div>
+
+                          <p>Pada Algoritma 1, Anda dapat memperhatikan bahwa pseudocode cukup ekspresif dalam menyatakan alur algoritma. Sebagai konvensi, simbol-simbol beserta makna untuk komponen pada pseudocode dapat Anda lihat pada Tabel 2.1.
+                          </p>
+
+                          <p>2.1: Simbol dan kata kunci beserta makna pada <i>pseudocode</i></p>
+                          
+                          <figure class="table">
+                              <table>
+                                  <tbody>
+                                      <tr>
+                                          <td style="text-align:center;"><strong>Simbol</strong></td>
+                                          <td><strong>Makna</strong></td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">←</p>
+                                          </td>
+                                          <td>Operator <i>assignment</i>, artinya memberikan nilai pada variabel di ruas kiri dengan nilai di ruas kanan.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">=</p>
+                                          </td>
+                                          <td>Operator <i>boolean</i> untuk memeriksa kesamaan. Nilai <i>true</i> dikembalikan bila kedua ruas sama, atau <i>false</i> jika tidak.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">∧</p>
+                                          </td>
+                                          <td>Operator logika <code>and</code>.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">∨</p>
+                                          </td>
+                                          <td>Operator logika <code>or</code>.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">⌈x⌉</p>
+                                          </td>
+                                          <td>Pembulatan ke atas untuk suatu bilangan riil x</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">⌊x⌋</p>
+                                          </td>
+                                          <td>Pembulatan ke bawah untuk suatu bilangan riil x.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;">|X|</p>
+                                          </td>
+                                          <td>Banyaknya anggota atau ukuran dari X, yang mana X merupakan sebuah himpunan atau daftar.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;"><strong>new integer</strong>[10]</p>
+                                          </td>
+                                          <td>Inisialisasi <i>array</i> bertipe <code>integer</code> dengan 10 elemen, yang terdefinisi dari elemen ke-0 sampai dengan 9.</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;"><strong>for</strong> i ← 1, N <strong>do</strong></p>
+                                          </td>
+                                          <td>Perulangan <code>for</code> dengan i sebagai pencacah, dimulai dari angka 1 sampai dengan N</td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                              <p style="text-align:center;"><strong>return</strong></p>
+                                          </td>
+                                          <td>Perintah untuk pengembalian pada fungsi dan prosedur, lalu keluar dari fungsi atau prosedur tersebut. Pada fungsi, nilai yang dituliskan sesudah <strong>return</strong> akan dikembalikan ke pemanggilnya.</td>
+                                      </tr>
+                                  </tbody>
+                              </table>
+                          </figure>
+
+
+                      </div>
+                  </div>
+
+                  <div id="sp-item-3" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1>Chapter 3</h1>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Quod autem in homine praestantissimum atque optimum est, id deseruit. <a href="http://loripsum.net/" target="_blank" rel="noopener">Nunc de hominis summo bono quaeritur;</a> Vidit Homerus probari fabulam non posse, si cantiunculis tantus irretitus vir teneretur; Itaque ab his ordiamur. <code>Duo Reges: constructio interrete.</code> Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Nam si propter voluptatem, quae est ista laus, quae possit e macello peti? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. </p>
+
+                          <p>Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. <b>Ostendit pedes et pectus.</b> Illis videtur, qui illud non dubitant bonum dicere -; Quaero igitur, quo modo hae tantae commendationes a natura profectae subito a sapientia relictae sint. Hoc mihi cum tuo fratre convenit. <b>Sed haec in pueris;</b> </p>
+
+                          <p>Omnes enim iucundum motum, quo sensus hilaretur. Tibi hoc incredibile, quod beatissimum. <a href="http://loripsum.net/" target="_blank" rel="noopener">Invidiosum nomen est, infame, suspectum.</a> Duarum enim vitarum nobis erunt instituta capienda. Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere. Quid enim possumus hoc agere divinius? </p>
+
+                          <p>Summum ením bonum exposuit vacuitatem doloris; <a href="http://loripsum.net/" target="_blank" rel="noopener">Quam nemo umquam voluptatem appellavit, appellat;</a> Mihi enim satis est, ipsis non satis. Quae cum magnifice primo dici viderentur, considerata minus probabantur. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Duarum enim vitarum nobis erunt instituta capienda. </p>
+
+                          <pre>Illi igitur antiqui non tam acute optabiliorem illam vitam
+putant, praestantiorem, beatiorem, Stoici autem tantum modo
+praeponendam in seligendo, non quo beatior ea vita sit, sed
+quod ad naturam accommodatior.
+
+Et nemo nimium beatus est;
+</pre>
+
+
+                          <p><b>Nam quid possumus facere melius?</b> <b>Quid nunc honeste dicit?</b> Si enim ad populum me vocas, eum. Tanta vis admonitionis inest in locis; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. <code>Quare attende, quaeso.</code> Longum est enim ad omnia respondere, quae a te dicta sunt. </p>
+
+                          <p>Quia nec honesto quic quam honestius nec turpi turpius. <b>Zenonis est, inquam, hoc Stoici.</b> <code>Pugnant Stoici cum Peripateticis.</code> <code>Nam de isto magna dissensio est.</code> Ratio enim nostra consentit, pugnat oratio. Multoque hoc melius nos veriusque quam Stoici. </p>
+
+                          <blockquote cite="http://loripsum.net">
+                              Sunt etiam turpitudines plurimae, quae, nisi honestas natura plurimum valeat, cur non cadant in sapientem non est facile defendere.
+                          </blockquote>
+
+
+                          <ul>
+                              <li>Illud dico, ea, quae dicat, praeclare inter se cohaerere.</li>
+                              <li>Maximus dolor, inquit, brevis est.</li>
+                              <li>Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit.</li>
+                              <li>Ostendit pedes et pectus.</li>
+                          </ul>
+
+
+
+                      </div>
+                  </div>
+                  <div id="sp-item-3-2" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1>Chapter 3.2</h1>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Quod autem in homine praestantissimum atque optimum est, id deseruit. <a href="http://loripsum.net/" target="_blank" rel="noopener">Nunc de hominis summo bono quaeritur;</a> Vidit Homerus probari fabulam non posse, si cantiunculis tantus irretitus vir teneretur; Itaque ab his ordiamur. <code>Duo Reges: constructio interrete.</code> Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Nam si propter voluptatem, quae est ista laus, quae possit e macello peti? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. </p>
+
+                          <p>Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. <b>Ostendit pedes et pectus.</b> Illis videtur, qui illud non dubitant bonum dicere -; Quaero igitur, quo modo hae tantae commendationes a natura profectae subito a sapientia relictae sint. Hoc mihi cum tuo fratre convenit. <b>Sed haec in pueris;</b> </p>
+
+                          <p>Omnes enim iucundum motum, quo sensus hilaretur. Tibi hoc incredibile, quod beatissimum. <a href="http://loripsum.net/" target="_blank" rel="noopener">Invidiosum nomen est, infame, suspectum.</a> Duarum enim vitarum nobis erunt instituta capienda. Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere. Quid enim possumus hoc agere divinius? </p>
+
+                          <p>Summum ením bonum exposuit vacuitatem doloris; <a href="http://loripsum.net/" target="_blank" rel="noopener">Quam nemo umquam voluptatem appellavit, appellat;</a> Mihi enim satis est, ipsis non satis. Quae cum magnifice primo dici viderentur, considerata minus probabantur. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Duarum enim vitarum nobis erunt instituta capienda. </p>
+
+                          <pre>Illi igitur antiqui non tam acute optabiliorem illam vitam
+putant, praestantiorem, beatiorem, Stoici autem tantum modo
+praeponendam in seligendo, non quo beatior ea vita sit, sed
+quod ad naturam accommodatior.
+
+Et nemo nimium beatus est;
+</pre>
+
+
+                          <p><b>Nam quid possumus facere melius?</b> <b>Quid nunc honeste dicit?</b> Si enim ad populum me vocas, eum. Tanta vis admonitionis inest in locis; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. <code>Quare attende, quaeso.</code> Longum est enim ad omnia respondere, quae a te dicta sunt. </p>
+
+                          <p>Quia nec honesto quic quam honestius nec turpi turpius. <b>Zenonis est, inquam, hoc Stoici.</b> <code>Pugnant Stoici cum Peripateticis.</code> <code>Nam de isto magna dissensio est.</code> Ratio enim nostra consentit, pugnat oratio. Multoque hoc melius nos veriusque quam Stoici. </p>
+
+                          <blockquote cite="http://loripsum.net">
+                              Sunt etiam turpitudines plurimae, quae, nisi honestas natura plurimum valeat, cur non cadant in sapientem non est facile defendere.
+                          </blockquote>
+
+
+                          <ul>
+                              <li>Illud dico, ea, quae dicat, praeclare inter se cohaerere.</li>
+                              <li>Maximus dolor, inquit, brevis est.</li>
+                              <li>Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit.</li>
+                              <li>Ostendit pedes et pectus.</li>
+                          </ul>
+
+
+
+                      </div>
+                  </div>
+                  <div id="sp-item-3-3" class="lc-block border-bottom">
+                      <div editable="rich">
+
+                          <h1>Chapter 3.3</h1>
+
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis animo aequo videt eum, quem inpure ac flagitiose putet vivere? Quod autem in homine praestantissimum atque optimum est, id deseruit. <a href="http://loripsum.net/" target="_blank" rel="noopener">Nunc de hominis summo bono quaeritur;</a> Vidit Homerus probari fabulam non posse, si cantiunculis tantus irretitus vir teneretur; Itaque ab his ordiamur. <code>Duo Reges: constructio interrete.</code> Sed erat aequius Triarium aliquid de dissensione nostra iudicare. Nam si propter voluptatem, quae est ista laus, quae possit e macello peti? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. </p>
+
+                          <p>Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. <b>Ostendit pedes et pectus.</b> Illis videtur, qui illud non dubitant bonum dicere -; Quaero igitur, quo modo hae tantae commendationes a natura profectae subito a sapientia relictae sint. Hoc mihi cum tuo fratre convenit. <b>Sed haec in pueris;</b> </p>
+
+                          <p>Omnes enim iucundum motum, quo sensus hilaretur. Tibi hoc incredibile, quod beatissimum. <a href="http://loripsum.net/" target="_blank" rel="noopener">Invidiosum nomen est, infame, suspectum.</a> Duarum enim vitarum nobis erunt instituta capienda. Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Nisi autem rerum natura perspecta erit, nullo modo poterimus sensuum iudicia defendere. Quid enim possumus hoc agere divinius? </p>
+
+                          <p>Summum ením bonum exposuit vacuitatem doloris; <a href="http://loripsum.net/" target="_blank" rel="noopener">Quam nemo umquam voluptatem appellavit, appellat;</a> Mihi enim satis est, ipsis non satis. Quae cum magnifice primo dici viderentur, considerata minus probabantur. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Duarum enim vitarum nobis erunt instituta capienda. </p>
+
+                          <pre>Illi igitur antiqui non tam acute optabiliorem illam vitam
+putant, praestantiorem, beatiorem, Stoici autem tantum modo
+praeponendam in seligendo, non quo beatior ea vita sit, sed
+quod ad naturam accommodatior.
+
+Et nemo nimium beatus est;
+</pre>
+
+
+                          <p><b>Nam quid possumus facere melius?</b> <b>Quid nunc honeste dicit?</b> Si enim ad populum me vocas, eum. Tanta vis admonitionis inest in locis; Sed erat aequius Triarium aliquid de dissensione nostra iudicare. <code>Quare attende, quaeso.</code> Longum est enim ad omnia respondere, quae a te dicta sunt. </p>
+
+                          <p>Quia nec honesto quic quam honestius nec turpi turpius. <b>Zenonis est, inquam, hoc Stoici.</b> <code>Pugnant Stoici cum Peripateticis.</code> <code>Nam de isto magna dissensio est.</code> Ratio enim nostra consentit, pugnat oratio. Multoque hoc melius nos veriusque quam Stoici. </p>
+
+                          <blockquote cite="http://loripsum.net">
+                              Sunt etiam turpitudines plurimae, quae, nisi honestas natura plurimum valeat, cur non cadant in sapientem non est facile defendere.
+                          </blockquote>
+
+
+                          <ul>
+                              <li>Illud dico, ea, quae dicat, praeclare inter se cohaerere.</li>
+                              <li>Maximus dolor, inquit, brevis est.</li>
+                              <li>Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit.</li>
+                              <li>Ostendit pedes et pectus.</li>
+                          </ul>
+
+
+
+                      </div>
+                  </div>
+              </div>
+          </div><!-- /col -->
+      </div>
+    </div>
+    
+  </section></main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">iLanding</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0px";  
+      document.getElementById("header").style.transform = "scale(100%,100%)";
+  } else {
+    document.getElementById("header").style.top = "-60px";  
+    document.getElementById("header").style.transform = "scale(0%,0%)";
+  }
+  prevScrollpos = currentScrollPos;
+  }
+</script>
+
+</html>

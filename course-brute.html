@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Codexium</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="course">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Codexium</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="aboutosn.html">About OSN</a></li>
+          <li class="dropdown"><a href="course.html"><span>Courses</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="course-intro.html">Intro to CP</a></li>
+              <li><a href="course-brute.html">Brute Force</a></li>
+              <li><a href="course-sort.html">Search & Sort</a></li>
+            </ul>
+          </li>
+          <li><a href="#problem.html">Problems</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#course">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main"><section class="services section light-background course">
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h1>Introduction to Competitive Programming</h1>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="container py-5">
+      <div class="row bg-light">
+          <div class="col-md-4 d-none d-md-block bg-white">
+              <div class="lc-block">
+                  <nav id="lc-scrollspy-navbar" class="navbar light-background flex-column align-items-stretch p-3">
+                      <a class="navbar-brand" href="#">Table of Content:</a>
+                      <nav class="nav nav-pills flex-column">
+                          <a class="nav-link" href="#sp-item-1">Chapter 1</a>
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1" href="#sp-item-1-2">Chapter 1.2</a>
+                              <a class="nav-link ms-3 my-1" href="#sp-item-1-3">Chapter 1.3</a>
+                          </nav>
+                          <a class="nav-link" href="#sp-item-2">Chapter 2</a>
+                          <a class="nav-link" href="#sp-item-3">Chapter 3</a>
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1" href="#sp-item-3-2">Chapter 3.1</a>
+                              <a class="nav-link ms-3 my-1" href="#sp-item-3-3">Chapter 3.2</a>
+                          </nav>
+                      </nav>
+                  </nav>
+              </div><!-- /lc-block -->
+        </div><!-- /col -->
+        <div class="col-md-8 bg-light  ">
+              <div class="position-relative" style="height: 80vh; overflow: auto;" data-bs-spy="scroll" data-bs-target="#lc-scrollspy-navbar" data-bs-offset="0" tabindex="0">
+                <div id="sp-item-1" class="lc-block border-bottom card-body">
+                  <div editable="rich">
+                      <p class="fs-4 fw-semibold">Konsep <i>Brute Force</i></p>
+
+                      <p><i>Brute force</i> adalah salah satu strategi penyelesaian masalah. <i>Brute force</i> merupakan strategi yang sederhana, serta pasti menemukan solusi yang kita harapkan, walaupun pada umumnya memerlukan waktu yang cukup lama.</p>
+
+                      <p><i>Brute force</i> bukan merupakan suatu algoritma khusus, melainkan suatu strategi penyelesaian masalah. Sebutan lain dari brute force adalah complete search dan exhaustive search . Prinsip dari strategi ini hanya satu, yaitu mencoba semua kemungkinan. <i>Brute force</i> menjamin solusi pasti benar karena menelusuri seluruh kemungkinan. Akibatnya, secara umum <i>brute force</i> bekerja dengan lambat, terutama ketika terdapat banyak kemungkinan solusi yang perlu dicoba. Sebagai contoh, salah satu penggunaan strategi <i>brute force</i> adalah dalam mengerjakan permasalahan <i>Subset Sum</i>.</p>
+                  </div>
+              </div>
+              <div id="sp-item-2" class="lc-block border-bottom card-body">
+                  <div editable="rich">
+                      <p class="fs-4 fw-semibold">Penyelesaian dengan Teknik <i>Brute Force</i></p>
+                      
+                      <p>Ingat bahwa prinsip dari strategi brute force adalah menelusuri semua kemungkinan. Dengan kata lain, kita mencoba membangkitkan seluruh kemungkinan, lalu mencari jawaban dari permasalahan kita melalui seluruh kemungkinan tersebut. Dalam membangkitkan seluruh kemungkinan, kita dapat melakukannya secara iteratif maupun rekursif.</p>
+                      
+                      <p>Sebagai contoh, kita kembali ke permasalahan Subset Sum. Untuk setiap elemen, terdapat dua kemungkinan, yaitu memilih bilangan tersebut untuk dimasukkan ke subhimpunan atau tidak. Selanjutnya, kita akan menelusuri semua kemungkinan pilihan yang ada. Jika terdapat pemilihan yang jumlahan elemen-elemennya sama dengan K, maka terdapat solusi. Hal ini dapat dengan mudah diimplementasikan secara rekursif.</p>
+                      
+                      <p>Selanjutnya, mari kita analisis performa strategi brute force untuk permasalahan Subset Sum. Untuk setiap elemen, terdapat 2 pilihan, yaitu dipilih atau tidak. Karena terdapat N elemen, maka terdapat 2<sup>N</sup> kemungkinan. Maka, kompleksitas solusi brute force adalah O(2<sup>N</sup>). Untuk nilai N terbesar, 2<sup>N</sup> = 2<sup>15</sup> = 32.768, yang masih cukup dalam operasi komputer per detik pada umumnya (100 juta).</p>
+                      
+                      <p>Algoritma untuk menyelesaikan permasalahan Subset Sum dapat ditemukan pada Algoritma 2 serta Algoritma 3.</p>
+
+                      <p><strong>Algoritma 2 </strong>Solusi permasalahan <i>Subset Sum</i></p>
+                      
+                      <div class="container masukan"><pre><code class="language-plaintext">function SOLVE(i,sum)
+if i &gt; N then
+if sum = K then
+  return true
+else
+  return f alse
+end if
+end if
+option1 ← SOLVE(i+1,sum+a<sub>i</sub>)  //Pilih elemen a<sub>i</sub>
+option2 ← SOLVE(i+1,sum) //Tidak pilih elemen a<sub>i</sub>
+return option1 ∨ option2
+end function</code></pre></div>
+                      
+                      <p><strong>Algoritma 3</strong> Fungsi pemanggil solusi.</p>
+                      
+                      <div class="container masukan">
+                          <pre><code class="language-plaintext">function SOLVESUBSETSUM()
+return SOLVE(1,0)
+end function</code></pre>
+                      </div>
+
+                  </div>
+              </div>
+              <div id="sp-item-3" class="lc-block border-bottom card-body">
+                  <div editable="rich">
+                      <p class="fs-4 fw-semibold">Optimisasi Teknik <i>Brute Force</i></p>
+
+                      <p>Bisakah solusi pada Algoritma 2 dibuat menjadi lebih cepat? Perhatikan kasus ketika <code><i>sum</i></code> telah melebihi K. Karena semua a<sub>i</sub> bernilai positif, maka <code><i>sum</i></code> tidak akan mengecil. Karena itu, bila <code><i>sum</i></code> sudah melebihi K, dipastikan tidak akan tercapai sebuah solusi.</p>
+
+                      <p>Dari sini, kita bisa mengoptimisasi fungsi <code>SOLVE</code> menjadi fungsi <code>OPTIMIZEDSOLVE</code> yang akan menghentikan suatu penelusuran kemungkinan apabila jumlahan elemen yang dipilih sudah melebihi K. Algoritma penyelesaian Subset Sum dengan optimasi tersebut dapat dilihat di Algoritma 4.</p>
+
+                      <p>Optimisasi yang dilakukan oleh <code>OPTIMIZEDSOLVE</code> pada Algoritma 4 biasa disebut sebagai <i>pruning</i> (pemangkasan). Pruning merupakan optimisasi dengan mengurangi ruang pencarian dengan cara menghindari pencarian yang sudah pasti salah.</p>
+
+                      <p>Meskipun mengurangi ruang pencarian, <i>pruning</i> umumnya tidak mengurangi kompleksitas solusi. Sebab, biasanya terdapat kasus yang mana <i>pruning</i> tidak mengurangi ruang pencarian secara signifikan. Pada kasus ini, solusi dapat dianggap tetap bekerja dalam O(2<sup>N</sup>).</p>
+
+                      <p><strong>Algoritma 4</strong> Solusi permasalahan Subset Sum yang dioptimasi.</p>
+
+                      <div class="container masukan">
+                          <pre><code class="language-plaintext">function OPTIMIZEDSOLVE(i,sum)
+if i &gt; N then
+if sum = K then
+  return true
+else
+  return f alse
+end if
+end if
+if sum &gt; K then
+  return f alse
+end if
+option1 ← OPTIMIZEDSOLVE(i+1,sum+ai) . Pilih elemen ai
+option2 ← OPTIMIZEDSOLVE(i+1,sum) . Tidak pilih elemen ai
+return option1∨option2
+end function</code></pre>
+                      </div>
+
+                      <p>Selanjutnya, mari kita lihat contoh yang mana optimisasi dapat mempercepat solusi secara signifikan.</p>
+
+                      <div class="container border border-secondary">
+                          <p class="fs-5 mt-2"><strong>Contoh Soal 4.2: Mengatur Persamaan</strong></p>
+                          <p>Diberikan sebuah persamaan: p+q+r = 0. Masing-masing dari p, q, dan r harus merupakan anggota dari {a<sub>1</sub>,a<sub>2</sub>,...,a<sub>N</sub>}. Diketahui pula bahwa semua nilai {a<sub>1</sub>,a<sub>2</sub>,...,a<sub>N</sub>} unik. Berapa banyak triplet 〈p,q,r〉 berbeda yang memenuhi persamaan tersebut?</p>
+                          <p></p>
+                          <p><strong>Batasan</strong></p>
+                          <ul>
+                              <li>1 ≤ N ≤ 2.000</li>
+                              <li>−10<sup>5</sup> ≤ a<sub>i </sub>≤ 10<sup>5</sup></li>
+                          </ul>
+                      </div>
+                      
+                      <p>Salah satu solusi untuk menyelesaikan permasalahan tersebut adalah dengan melakukan <i>brute force</i> seluruh nilai p, q, dan r yang mungkin, seperti yang tertera pada Algoritma 4. Karena setiap variabel memiliki N kemungkinan nilai, maka kompleksitas waktu solusi tersebut adalah O(N<sup>3</sup><s>)</s>. Tentunya terlalu lambat untuk nilai N yang mencapai 2.000.</p>
+                      <p>Apakah ada solusi yang lebih baik? Sebenarnya, kita bisa mengambil suatu observasi sederhana yang cukup berguna untuk mempercepat solusi kita.</p>
+                      <blockquote>
+                          <p><strong>Observasi</strong>: Jika kita sudah menentukan nilai p dan q, maka nilai r haruslah −(p+q).</p>
+                      </blockquote>
+                      <p>Berdasarkan observasi tersebut, kita dapat mencoba semua kemungkinan p dan q, lalu memeriksa apakah −(p+q) terdapat di dalam array. Untuk mempercepat, pencarian −(p+q) bisa menggunakan binary search . Implementasi solusi tersebut terdapat pada Algoritma 5.</p>
+
+                      <p>Pada Algoritma 5, fungsi <code>EXIST(r)</code> adalah fungsi untuk memeriksa keberadaan r di himpunan {a<sub>1</sub>,a<sub><sup>2</sup></sub>,...,a<sub>N</sub>} dengan menggunakan binary search (tentunya setelah diurutkan). Kompleksitas dari <code>CountTripletFast</code> sendiri adalah O(N<sup>2</sup> log N).</p>
+
+                      <p><strong>Algoritma 4</strong> Solusi permasalahan Mengatur Persamaan.</p>
+                      <div class="container masukan">
+                          <pre><code class="language-plaintext">function COUNTTRIPLETS()
+count ← 0
+  for i ← 1, N do
+      for j ← 1, N do
+          for k ← 1, N do
+              p ← a[i]
+              q ← a[ j]
+              r ← a[k]
+              if (p+q+r) = 0 then
+                  count ← count +1
+              end if
+          end for
+      end for
+  end for
+return count
+end function
+                      </code></pre>
+                      </div>
+
+                      <p><strong>Algoritma 5</strong> Solusi permasalahan Mengatur Persamaan yang dioptimasi.</p>
+                      <div class="container masukan">
+                          <pre><code class="language-plaintext">function COUNTTRIPLETSFAST()
+  count ← 0
+for i ← 1, N do
+  for j ← 1, N do
+      p ← a[i]
+      q ← a[ j]
+      r ← −(p+q)
+      if EXIST(r) then
+          count ← count +1
+      end if
+  end for
+end for
+return count
+end function
+                      </code></pre>
+                      </div>
+
+                      <p>Kompleksitas O(N<sup>2</sup> log N) sudah cukup untuk N yang mencapai 2.000. Dari sini kita belajar bahwa optimisasi pada pencarian kadang diperlukan, meskipun ide dasarnya adalah <i>brute force</i>.</p>
+                  </div>
+                </div>
+              </div><!-- /col -->
+        </div>
+    </div>
+</div>
+    
+  </section></main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">iLanding</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0px";  
+      document.getElementById("header").style.transform = "scale(100%,100%)";
+  } else {
+    document.getElementById("header").style.top = "-60px";  
+    document.getElementById("header").style.transform = "scale(0%,0%)";
+  }
+  prevScrollpos = currentScrollPos;
+  }
+</script>
+
+</html>

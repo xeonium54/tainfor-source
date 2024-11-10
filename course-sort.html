@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Codexium</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="course">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Codexium</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="aboutosn.html">About OSN</a></li>
+          <li class="dropdown"><a href="course.html"><span>Courses</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="course-intro.html">Intro to CP</a></li>
+              <li><a href="course-brute.html">Brute Force</a></li>
+              <li><a href="course-sort.html">Search & Sort</a></li>
+            </ul>
+          </li>
+          <li><a href="#problem.html">Problems</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#course">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main"><section class="services section light-background course">
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h1>Introduction to Competitive Programming</h1>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="container py-5">
+      <div class="row bg-light">
+          <div class="col-md-4 d-none d-md-block bg-white">
+              <div class="lc-block">
+                  <nav id="lc-scrollspy-navbar" class="navbar light-background flex-column align-items-stretch p-3">
+                      <a class="navbar-brand" href="#">Table of Content:</a>
+                      <nav class="nav nav-pills flex-column">
+                          <a class="nav-link" href="#sp-item-1">Chapter 1</a>
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1" href="#sp-item-1-2">Chapter 1.2</a>
+                              <a class="nav-link ms-3 my-1" href="#sp-item-1-3">Chapter 1.3</a>
+                          </nav>
+                          <a class="nav-link" href="#sp-item-2">Chapter 2</a>
+                          <a class="nav-link" href="#sp-item-3">Chapter 3</a>
+                          <nav class="nav nav-pills flex-column">
+                              <a class="nav-link ms-3 my-1" href="#sp-item-3-2">Chapter 3.1</a>
+                              <a class="nav-link ms-3 my-1" href="#sp-item-3-3">Chapter 3.2</a>
+                          </nav>
+                      </nav>
+                  </nav>
+              </div><!-- /lc-block -->
+        </div><!-- /col -->
+        <div class="col-md-8 bg-light  ">
+              <div class="position-relative" style="height: 80vh; overflow: auto;" data-bs-spy="scroll" data-bs-target="#lc-scrollspy-navbar" data-bs-offset="0" tabindex="0">
+                <div id="sp-item-1" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <h1>Pencarian</h1>
+
+                        <p>Pencarian dan pengurutan merupakan hal sederhana dan sering digunakan dalam pemrograman. Terdapat berbagai macam cara untuk melakukan pencarian maupun pengurutan. Membahas beberapa cara tersebut dapat memberikan gambaran bagaimana sebuah persoalan diselesaikan dengan berbagai algoritma.</p>
+
+                        <div class="container border border-secondary">
+                            <p class="fs-5 mt-2"><strong>Contoh Soal 3.1: Sepatu untuk Bebek</strong></p>
+                            <p>Kwek, salah satu bebek Pak Dengklek akan segera merayakan ulang tahunnya. Pak Dengklek akan memberikan Kwek hadiah ulang tahun berupa sepatu. Terdapat N sepatu di toko. Sepatu ke-i memiliki ukuran sebesar h<sub>i</sub> . Pak Dengklek tahu bahwa ukuran kaki Kwek adalah sebuah bilangan bulat X. Karena N bisa jadi sangat besar, Pak Dengklek meminta bantuan kalian untuk mencari sepatu keberapa yang cocok dengan ukuran kaki Kwek. Bantulah dia!</p>
+
+                            <p><strong>Batasan</strong></p>
+
+                            <ul>
+                                <li>• 1 ≤ N ≤ 100.000</li>
+                                <li>1 ≤ X ≤ 100.000</li>
+                                <li>1 ≤ h<sub>i</sub> ≤ 100.000, untuk 1 ≤ i ≤ N</li>
+                            </ul>
+                        </div>
+
+                        <p>Kita dihadapkan pada persoalan pencarian: diberikan N angka. Cari apakah X ada di antara angka-angka tersebut. Jika ditemukan, cetak di urutan keberapa angka tersebut berada.</p>
+                    </div>
+                </div>
+                <div id="sp-item-1-1" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <p class="fs-4 fw-semibold"><i>Sequential Search (1-1)</i></p>
+                        <p>Salah satu ide yang muncul adalah dengan melakukan pengecekan kepada seluruh elemen yang ada. Dengan kata lain, kita akan melakukan:</p>
+                        <ul>
+                            <li>Periksa satu per satu dari sepatu pertama, kedua, ketiga, dan seterusnya.</li>
+                            <li>Jika ditemukan, langsung laporkan.</li>
+                            <li>Jika sampai akhir belum juga ditemukan, artinya angka yang dicari tidak ada pada daftar.</li>
+                        </ul>
+                        <p>Algoritma pencarian dengan membandingkan elemen satu per satu semacam ini disebut dengan <i><strong>sequential search</strong></i> atau <i><strong>linear search</strong></i> . Jika ada N elemen pada daftar yang perlu dicari, maka paling banyak diperlukan N operasi perbandingan. Dalam kompleksitas waktu, performa algoritma sequential search bisa dinyatakan dalam O(N).</p>
+                        <p><strong>Algoritma 6 </strong>Contoh Kode Pencarian Sederhana</p>
+                        <div class="container masukan">
+                        <pre><code class="language-plaintext">procedure SEARCH(h, X)
+hasil ← 0 //Artinya belum ditemukan
+for i ← 1, N do
+    if (h[i] = X) then
+        hasil ← i
+        break
+    end if
+end for
+if (hasil = 0) then
+    print "beri hadiah lain"
+else
+    print hasil
+end if
+end procedure</code></pre>
+                        </div>
+                    </div>
+                </div>
+                <div id="sp-item-1-2" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <p class="fs-4 fw-semibold"><i>Binary Search (1-1)</i></p>
+                        <p>Apakah ada algoritma pencarian yang lebih baik? Misalkan Anda diberikan Kamus Besar Bahasa Indonesia (KBBI) yang mengandung 90.000 kata. Anda kemudian ingin mencari definisi suatu kata pada KBBI. Dengan <i>sequential search</i> perlu dilakukan paling banyak 90.000 operasi. Apakah kita sebagai manusia melakukan perbandingan sampai 90.000 kata?</p>
+
+                        <p>Ternyata, kita tidak perlu mencari kata satu per satu, halaman demi halaman, sampai 90.000 kata. Bahkan, kita dapat mencari arti suatu kata cukup dalam beberapa perbandingan, yang jauh lebih sedikit dari 90.000. Bagaimana hal ini bisa terjadi?</p>
+                        
+                        <p>Sifat Khusus: Terurut</p>
+                        
+                        <p>KBBI memiliki sebuah sifat khusus, yaitu terurut berdasarkan abjad. Dengan sifat ini, kita bisa membuka halaman tengah dari KBBI, lalu periksa apakah kata yang kita cari ada pada halaman tersebut.</p>
+                        
+                        <p>Misalkan kata yang kita cari berawalan ’W’. Jika halaman tengah hanya menunjukkan daftar kata dengan awalan ’G’. Jelas bahwa kata yang kita cari tidak mungkin berada di separuh pertama kamus. Ulangi hal serupa dengan separuh belakang kamus, buka bagian tengahnya dan bandingkan. Dengan cara ini, setiap perbandingan akan mengeliminasi separuh rentang pencarian. Pencarian seperti ini disebut dengan <i>binary search</i>.</p>
+                        
+                        <p>Analisis <i>Binary Search</i></p>
+                        
+                        <p>Misalkan terdapat sebuah daftar berisi N elemen, dan kita perlu mencari salah satu elemen. Banyaknya operasi maksimal yang dibutuhkan sampai suatu elemen bisa dipastikan keberadaannya sama dengan panjang dari barisan [N, N/2 , N4/ , N/8 ,...,2,1] yakni sebesar ⌈log<sub>2</sub> N⌉, sehingga kompleksitasnya O(log N).</p>
+                        
+                        <p>Perhatikan Tabel 3.1 untuk membandingkan banyaknya operasi yang dibutuhkan untuk nilai N tertentu. Seperti yang terlihat, <i>binary search</i> jauh lebih cepat dari <i>linear search</i> . Bahkan untuk N = 10<sup>6</sup> , <i>binary search</i> hanya membutuhkan maksimal 20 operasi.</p>
+                        
+                        <p style="text-align:center;">Tabel 3.1: Perbandingan <i>sequential search</i> dan <i>binary search.</i></p>
+                        <figure class="table mx-auto" style="width:50%;">
+                            <table class="ck-table-resized">
+                                <colgroup>
+                                    <col style="width:18.26%;">
+                                    <col style="width:40.43%;">
+                                    <col style="width:41.31%;">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">N</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;"><i>Sequential</i></p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;"><i>Binary</i></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">50</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">50</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">6</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">100</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">100</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">7</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">150</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">150</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">8</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">200</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">200</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">8</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">250</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">250</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">8</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align:center;">300</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">300</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align:center;">9</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                        
+                        <p class="fs-4 fw-semibold">Implementasi <i>Binary Search</i></p>
+                        
+                        <p>Terdapat bermacam cara implementasi binary search . Salah satunya seperti yang dicontohkan pada Algoritma 7. Pada algoritma ini, kita akan mencari X pada array h. Tentu kita asumsikan bahwa h sudah terurut.</p>
+
+                        <p><strong>Algoritma 7 </strong>Algoritma binary search</p>
+                        <div class="container masukan">
+<pre><code class="language-plaintext">procedure BINARYSEARCH(h, X)
+hasil ← 0 . Artinya belum ditemukan
+kiri ← 1
+kanan ← N
+while ((kiri ≤ kanan)∧(hasil = 0)) do
+    tengah ← (kiri+kanan) div 2
+    if (X &lt; h[tengah]) then
+        kanan ← tengah−1
+    else if (X &gt; h[tengah]) then
+        kiri ← tengah+1
+    else
+        hasil ← tengah
+    end if
+end while
+if (hasil = 0) then
+    print "beri hadiah lain"
+else
+    print hasil
+end if
+end procedure</code></pre>
+                        </div>
+
+                        <p>Berikut adalah cara kerja dari Algoritma 7:</p>
+
+                        <ul>
+                            <li>Variabel kiri dan kanan menyatakan bahwa rentang pencarian kita ada di antara [kiri, kanan]. Nilai X mungkin ada di dalam sana.</li>
+                            <li>Kita mengambil nilai tengah dari kiri dan kanan, lalu periksa apakah X sama dengan h[tengah].</li>
+                            <li>Jika ternyata X kurang dari h[tengah], artinya X tidak mungkin berada pada rentang [tengah, kanan].</li>
+                            <li>Dengan demikian, rentang pencarian kita yang baru adalah [kiri, tengah-1].</li>
+                            <li>Hal yang serupa juga terjadi ketika X lebih dari h[tengah], rentang pencarian kita menjadi [tengah+1, kanan].</li>
+                            <li>Tentu saja jika X sama dengan h[tengah], catat posisinya dan pencarian berakhir.</li>
+                            <li>Untuk kasus X tidak ditemukan, pencarian akan terus dilakukan sampai kiri &gt; kanan, yang artinya rentang pencarian sudah habis.</li>
+                        </ul>
+
+                        <p class="fs-4 fw-semibold">Ilustrasi Eksekusi Binary Search</p>
+
+                        <p>Sebagai contoh, misalkan Anda ingin mencari angka 3 dari suatu array [1,1,3,5,5,6,7]. Gambar 3.1 sampai Gambar 3.6 mengilustrasikan proses binary search dari awal sampai akhir.</p>
+
+                        <figure class="image image_resized" style="width:50%;" data-ckbox-resource-id="Q3zFcPxPiZoD">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/667.webp 667w" type="image/webp" sizes="(max-width: 667px) 100vw, 667px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/Q3zFcPxPiZoD/images/667.png" width="667" height="182">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.1: Tahap 1: Mulai dengan menginisiasi variabel kiri dan kanan pada kedua ujung array .</p>
+                        <figure class="image image_resized" style="width:50%;" data-ckbox-resource-id="65x2ikSRFAob">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/664.webp 664w" sizes="(max-width: 664px) 100vw, 664px" type="image/webp"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/65x2ikSRFAob/images/664.png" width="664" height="214">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.2: Tahap 2: Temukan indeks tengah yaitu nilai tengah dari kiri dan kanan. Kemudian lakukan perbandingan nilai tengah dengan nilai yang ingin dicari.</p>
+                        <figure class="image image_resized" style="width:50%;" data-ckbox-resource-id="JAm1cYNAP7p7">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/713.webp 713w" type="image/webp" sizes="(max-width: 713px) 100vw, 713px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/JAm1cYNAP7p7/images/713.png" width="713" height="221">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.3: Tahap 3: Karena 5 &gt; 3, maka geser kanan menjadi tengah−1.</p>
+                        <p style="text-align:center;">&nbsp;</p>
+                        <figure class="image image_resized" style="width:50%;" data-ckbox-resource-id="_A6ZqHOPvgN3">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/536.webp 536w" sizes="(max-width: 536px) 100vw, 536px" type="image/webp"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/_A6ZqHOPvgN3/images/536.png" width="536" height="169">
+                            </picture>
+                        </figure>
+                        <p>&nbsp;</p>
+                        <p style="text-align:center;">Gambar 3.4: Tahap 4: Temukan lagi indeks tengah yaitu nilai tengah dari kiri dan kanan dan bandingkan nilainya dengan nilai yang dicari.</p>
+                        <figure class="image image_resized" style="width:50%;" data-ckbox-resource-id="78cinA3wSgAW">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/693.webp 693w" type="image/webp" sizes="(max-width: 693px) 100vw, 693px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/78cinA3wSgAW/images/693.png" width="693" height="358">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.5: Tahap 5: Karena 1 &lt; 3, maka geser kiri menjadi tengah+1.</p>
+                        <p style="text-align:center;">&nbsp;</p>
+                        <figure class="image image_resized" style="width:41.89%;" data-ckbox-resource-id="HOczmzbSFtjv">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/582.webp 582w" type="image/webp" sizes="(max-width: 582px) 100vw, 582px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/HOczmzbSFtjv/images/582.png" width="582" height="347">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.6: Tahap 6: Temukan lagi indeks tengah yaitu nilai tengah dari kiri dan kanan dan bandingkan nilainya dengan nilai yang dicari. Ternyata nilai pada indeks tengah adalah 3. Dengan demikian pencarian berhasil.</p>
+
+                        <p>Rangkuman</p>
+                        <p>Secara umum, kedua algoritma pencarian dapat dirangkumkan sebagai berikut.</p>
+                        <p><i>Sequential search</i></p>
+                        <ul>
+                            <li>Data untuk pencarian tidak perlu terurut. </li>
+                            <li>Kompleksitasnya O(N), dengan N adalah ukuran data. </li>
+                            <li>Baik diimplementasikan jika pencarian hanya dilakukan sesekali.</li>
+                        </ul>
+                        <p><i>Binary search</i></p>
+                        <ul>
+                            <li>Data untuk pencarian harus terurut. </li>
+                            <li>Kompleksitasnya O(log N), dengan N adalah ukuran data. </li>
+                            <li>Baik diimplementasikan jika pencarian perlu dilakukan berkali-kali.</li>
+                        </ul>
+                        <p>Bagaimana jika kita memiliki data yang sangat banyak, tidak terurut, dan butuh pencarian yang efisien? Salah satu solusinya adalah dengan mengurutkan data tersebut, lalu mengaplikasikan <i>binary search</i> untuk setiap pencarian.</p>
+                    </div>
+                </div>
+                <div id="sp-item-2" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <h1>Pengurutan</h1>
+                        <p>Pengurutan sering digunakan dalam pemrograman untuk membantu membuat data lebih mudah diolah. Terdapat berbagai macam cara untuk melakukan pengurutan, mading masing dengan keuntungan dan kekurangannya.</p>
+                        <div class="container border border-secondary">
+                            <p class="fs-5 mt-2"><strong>Contoh Soal 3.2: Bebek Berbaris</strong></p>
+                            <p>Sebelum masuk ke dalam kandang, para bebek akan berbaris terlebih dahulu. Seiring dengan berjalannya waktu, bebek-bebek tumbuh tinggi. Pertumbuhan ini berbeda-beda; ada bebek yang lebih tinggi dari bebek lainnya. Terdapat N ekor bebek, bebek ke-i memiliki tinggi sebesar h<sub>i</sub> . Perbedaan tinggi ini menyebabkan barisan terlihat kurang rapi, sehingga Pak Dengklek ingin bebek-bebek berbaris dari yang paling pendek ke paling tinggi. Bantulah para bebek untuk mengurutkan barisan mereka!</p>
+                            <p><strong>Batasan</strong></p>
+                            <ul>
+                                <li>1 ≤ N ≤ 1.000</li>
+                                <li>1 ≤ h<sub>i</sub> ≤ 100.000, untuk 1 ≤ i ≤ N</li>
+                            </ul>
+                        </div>
+                        <p>Seperti yang tertera pada contoh soal Lampu dan Tombol, soal pemrograman kompetitif memiliki batasan-batasan yang jelas. Pada soal tersebut, tertera bahwa batasan waktu adalah 1 detik. Artinya, program Anda harus memiliki running time tidak melebihi 1 detik. Batasan memori 64 MB menyatakan bahwa program Anda juga tidak boleh memakan memori lebih dari batasan tersebut. Terakhir, terdapat batasan masukan, yakni berupa 1 ≤ N ≤ 1018. Artinya program Anda diharuskan dapat menyelesaikan soal tersebut untuk nilai N yang diberikan. Batasan ini juga menjamin bahwa program Anda tidak akan diuji dengan nilai-nilai di luar batasan.</p>
+                        <p>Persoalan ini meminta kita melakukan pengurutan N bilangan dengan rentang datanya antara 1 sampai 100.000. Terdapat sejumlah algoritma pengurutan, yang akan dibahas pada bagian berikutnya.</p>
+                    </div>
+                </div>
+                <div id="sp-item-2-1" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <p class="fs-4 fw-semibold">Bubble Sort</p>
+                        <p>Kita dapat melakukan bubble sort dengan memproses setiap pasang elemen yang bersebelahan satu per satu. Mulai dari elemen pertama, cek apakah elemen sesudahnya (yaitu elemen kedua) lebih kecil. Bila ya, artinya elemen pertama ini harus terletak sesudah elemen kedua. Untuk itu, lakukan penukaran. Bila tidak, tidak perlu lakukan penukaran. Lanjut periksa elemen kedua, ketiga, dan seterusnya. Proses ini mengakibatkan elemen dengan nilai terbesar pasti digiring ke posisi terakhir seperti pada Gambar 3.7.</p>
+                        <figure class="image" data-ckbox-resource-id="10g7uyTg-g0H">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/110.webp 110w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/220.webp 220w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/330.webp 330w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/440.webp 440w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/550.webp 550w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/660.webp 660w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/770.webp 770w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/880.webp 880w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/990.webp 990w,https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/1094.webp 1094w" type="image/webp" sizes="(max-width: 1094px) 100vw, 1094px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/10g7uyTg-g0H/images/1094.png" width="1094" height="541">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.7: Ilustrasi penggiringan elemen terbesar ke posisi terakhir</p>
+                        <p>Bila proses ini dilakukan lagi, maka elemen kedua terbesar akan terletak di posisi kedua dari terakhir. Kali ini pemeriksaan cukup dilakukan sampai 1 elemen sebelum posisi terakhir, sebab elemen terakhir sudah pasti tidak akan berubah posisi.</p>
+                        <figure class="image" data-ckbox-resource-id="3u6c5lM1PJv7">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/119.webp 119w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/238.webp 238w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/357.webp 357w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/476.webp 476w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/595.webp 595w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/714.webp 714w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/833.webp 833w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/952.webp 952w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/1071.webp 1071w,https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/1187.webp 1187w" type="image/webp" sizes="(max-width: 1187px) 100vw, 1187px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/3u6c5lM1PJv7/images/1187.png" width="1187" height="482">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.8: Ilustrasi penggiringan elemen kedua terbesar ke</p>
+                        <p>posisi kedua dari akhir.</p>
+                        <p>Demikian pula untuk eksekusi yang ketiga kalinya, yang kebetulan data sudah menjadi terurut seperti pada Gambar 3.9.</p>
+                        <figure class="image" data-ckbox-resource-id="Qh9e0Uvc6WPG">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/105.webp 105w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/210.webp 210w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/315.webp 315w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/420.webp 420w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/525.webp 525w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/630.webp 630w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/735.webp 735w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/840.webp 840w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/945.webp 945w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/1049.webp 1049w" type="image/webp" sizes="(max-width: 1049px) 100vw, 1049px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/Qh9e0Uvc6WPG/images/1049.png" width="1049" height="344">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.9: Ilustrasi penggiringan elemen ketiga terbesar ke posisi ketiga dari akhir.</p>
+                        <p class="fs-4 fw-semibold">Implementasi Bubble Sort</p>
+                        <p>Implementasi Bubble Sort dapat ditemukan pada Algoritma 12.</p>
+                        <p><strong>Algoritma 12</strong> Algoritma Bubble Sort.</p>
+                        <div class="container masukan">
+                            <pre><code class="language-plaintext">procedure BUBBLESORT(h)
+                            for i ← 1, N −1 do
+                                for j ← 1, N −i do
+                                    if (h[ j] &gt; h[ j +1]) then
+                                        SWAP(h[ j], h[ j +1]) //Tukar h[ j] dengan h[ j +1]
+                                    end if
+                                end for
+                            end for
+                        end procedure</code></pre>
+                        </div>
+                        
+                        <p>Jika eksekusi ke-i mengakibatkan i elemen terbesar terletak di i posisi terakhir, maka dibutuhkan N kali eksekusi hingga seluruh data terurut. Dalam sekali eksekusi, dilakukan iterasi dari elemen pertama sampai elemen terakhir, yang kompleksitasnya berkisar antara O(1) sampai O(N), tergantung eksekusi ke berapa. Secara rata-rata, kompleksitasnya setiap eksekusi adalah O(N/2), yang bisa ditulis O(N). Total kompleksitas bubble sort adalah O(N<sup>2</sup>).</p>
+                    </div>
+                </div>
+                <div id="sp-item-2-2" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <p class="fs-4 fw-semibold" >Selection Sort </p> 
+
+                        <p>Berikut adalah langkah-langkah untuk melakukan selection sort:</p>
+                       <ol>
+                           <li>Pilih elemen terkecil dari data, lalu pindahkan ke elemen pertama.</li>
+                           <li>Pilih elemen terkecil dari data yang tersisa, lalu pindahkan ke elemen kedua.</li>
+                           <li>Pilih elemen terkecil dari data yang tersisa, lalu pindahkan ke elemen ketiga.</li>
+                           <li>... dan seterusnya sampai seluruh elemen terurut.</li>
+                       </ol>
+                       <figure class="image" data-ckbox-resource-id="5EZkn2u4C7Zp">
+                           <picture>
+                               <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/94.webp 94w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/188.webp 188w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/282.webp 282w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/376.webp 376w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/470.webp 470w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/564.webp 564w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/658.webp 658w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/752.webp 752w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/846.webp 846w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/932.webp 932w" type="image/webp" sizes="(max-width: 932px) 100vw, 932px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/5EZkn2u4C7Zp/images/932.png" width="932" height="664">
+                           </picture>
+                       </figure>
+                       <p style="text-align:center;">Gambar 3.10: Ilustrasi jalannya selection sort</p>
+                       <p>Implementasi Selection Sort</p>
+                       <p>Implementasi selection sort dapat ditemukan pada Algoritma 13.</p>
+                       <p><strong>Algoritma 13</strong></p>
+                       <div class="container masukan">
+                           <pre><code class="language-plaintext">procedure SELECTIONSORT(h)
+for i ← 1, N do
+    //Pencarian indeks terkecil
+    minIndex ← i
+    for j ← i+1, N do
+        if (h[ j] &lt; h[minIndex]) then
+            minIndex ← j
+        end if
+    end for
+    SWAP(h[i], h[minIndex])
+end for
+end procedure</code></pre>
+                       </div>
+                       <p>Pencarian elemen terkecil dapat dilakukan dengan linear search . Berhubung perlu dilakukan N kali linear search , maka kompleksitas <i>selection sort</i> adalah O(N<sup>2</sup>).</p>
+                       <p>Pengurutan Parsial</p>
+                       <p>Cara kerja selection sort memungkinkan kita untuk melakukan partial sort. Jika kita hanya tertarik dengan K elemen terkecil, kita bisa melakukan proses seleksi dan menukar pada selection sort K kali. Dengan demikian, pencarian K elemen terkecil dapat dilakukan dalam O(KN), cukup baik apabila K jauh lebih kecil dari N.</p>
+                    </div>
+                </div>
+                <div id="sp-item-2-3" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <p class="fs-4 fw-semibold">Insertion Sort</p>
+                        <p>Berikut adalah langkah-langkah untuk melakukan insertion sort:</p>
+                        <ol>
+                            <li>Siapkan array kosong. Secara definisi, array yang kosong merupakan array terurut.</li>
+                            <li>. Secara bertahap, sisipkan elemen baru ke dalam array yang sudah terurut tersebut.</li>
+                            <li>Penyisipan ini harus dilakukan sedemikian sehingga array tetap terurut.</li>
+                            <li>Misalnya saat ini data yang sudah terurut adalah [1, 2, 3, 8], lalu elemen yang akan disisipkan adalah 5, maka dihasilkan [1, 2, 3, 5, 8].</li>
+                        </ol>
+                        <p>Prosesnya dapat digambarkan seperti pada Tabel 3.2</p>
+                        <figure class="table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Data Asal</td>
+                                        <td>Data Terurut</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[4, 3, 2, 8, 5, 3]</td>
+                                        <td>[]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[3, 2, 8, 5, 3]</td>
+                                        <td>[4]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[2, 8, 5, 3]</td>
+                                        <td>[3, 4]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[8, 5, 3]</td>
+                                        <td>[2, 3, 4]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[5, 3]</td>
+                                        <td>[2, 3, 4, 8]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[3]</td>
+                                        <td>[2, 3, 4, 5, 8]</td>
+                                    </tr>
+                                    <tr>
+                                        <td>[]</td>
+                                        <td>[2, 3, 3, 4, 5, 8]</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                        <p>Strategi yang dapat digunakan untuk menyisipkan angka adalah meletakkan angka yang hendak disisipkan pada bagian paling belakang, lalu digiring mundur sampai posisinya tepat. Misalnya pada kasus menyisipkan angka 3 pada data [1, 2, 5, 8, 9] seperti pada Gambar 3.11</p>
+                        <figure class="image" data-ckbox-resource-id="DYQSJWE-Q5dO">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/629.webp 629w" type="image/webp" sizes="(max-width: 629px) 100vw, 629px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/DYQSJWE-Q5dO/images/629.png" width="629" height="570">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.11: Ilustrasi penyisipan angka 3 pada data [1, 2, 5, 8, 9].</p>
+                        <p>Implementasi Insertion Sort</p>
+                        <p>Implementasi insertion sort dapat ditemukan pada Algoritma 14.</p>
+                        <p><strong>Algoritma 14</strong> Insertion Sort</p>
+                        <div class="container masukan">
+                            <pre><code class="language-plaintext">procedure INSERTIONSORT(h)
+                            for i ← 1, N do
+                                pos ← i
+                                while ((pos &gt; 1)∧(h[pos] %lt; h[pos−1])) do //selama belum tepat, giring ke depan
+                                    SWAP(h[pos], h[pos−1])
+                                    pos ← pos−1
+                                end while
+                            end for
+                        end procedure</code></pre>
+                        </div>
+                        <p>Untuk mengurutkan data, diperlukan N kali penyisipan. Setiap menyisipkan, dilakukan penggiringan yang kompleksitasnya:</p>
+                        <ul>
+                            <li>Pada kasus terbaik O(1), ketika angka yang dimasukkan merupakan angka terbesar pada data saat ini.</li>
+                            <li>Pada kasus terburuk O(N), yaitu ketika angka yang dimasukkan merupakan angka terkecil pada data saat ini.</li>
+                            <li>Pada kasus rata-rata, kompleksitasnya O(N/2), atau bisa ditulis O(N).</li>
+                        </ul>
+                        <p>Berdasarkan observasi tersebut, insertion sort dapat bekerja sangat cepat ketika datanya sudah hampir terurut. Pada kasus terbaik, insertion sort bekerja dalam O(N), yaitu ketika data sudah terurut. Pada kasus terburuk, kompleksitasnya O(N<sup>2</sup>). Secara rata-rata, kompleksitasnya adalah O(N<sup>2</sup>).</p>
+                        <p>Strategi insertion pada algoritma ini dapat digunakan untuk menambahkan sebuah elemen pada data yang sudah terurut. Ketimbang mengurutkan kembali seluruh elemen, cukup lakukan strategi insertion yang secara rata-rata bekerja dalam O(N).</p>
+                    </div>
+                </div>
+                <div id="sp-item-2-4" class="lc-block border-bottom card-body">
+                    <div editable="rich">
+                        <p class="fs-4 fw-semibold">Counting Sort</p>
+                        <p>Berikut adalah langkah-langkah untuk melakukan counting sort:</p>
+                        <ol>
+                            <li>Siapkan M ember yang mana M merupakan banyaknya kemungkinan nilai elemen yang muncul pada array.</li>
+                            <li>Setiap ember dinomori dengan sebuah angka yang merupakan seluruh nilai elemen yang mungkin ada.</li>
+                            <li>Untuk setiap elemen yang mau diurutkan, masukkan ke ember yang sesuai dengan nilai elemen tersebut.</li>
+                            <li>Setelah seluruh elemen dimasukkan ke ember yang bersesuaian, keluarkan isi emberember mulai dari ember 1 sampai M secara berurutan.</li>
+                        </ol>
+                        <p>Sebagai ilustrasi, kita ingin mengurutkan array [1,3,2,2,1,5] secara menaik. Jika diketahui nilai elemen yang muncul hanyalah dari 1 sampai 5, maka kita cukup menyiapkan 5 ember. Ember-ember tersebut dinomori 1 sampai dengan 5. Maka, tahapan-tahapan counting sort dari awal hingga selesai dalam mengurutkan array tersebut dapat dilihat pada Gambar 3.12 sampai Gambar 3.21.</p>
+                        <figure class="image" data-ckbox-resource-id="o5KI_xWbI90r">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/763.webp 763w" type="image/webp" sizes="(max-width: 763px) 100vw, 763px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/o5KI_xWbI90r/images/763.png" width="763" height="205">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.12: Tahap 1: Siapkan 5 ember kosong.</p>
+                        <figure class="image" data-ckbox-resource-id="kGReNetjXr5l">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/785.webp 785w" type="image/webp" sizes="(max-width: 785px) 100vw, 785px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/kGReNetjXr5l/images/785.png" width="785" height="343">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.13: Tahap 2: Masukkan elemen pertama ke dalam ember.</p>
+                        <figure class="image" data-ckbox-resource-id="ICkqZcqy5WXJ">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/787.webp 787w" type="image/webp" sizes="(max-width: 787px) 100vw, 787px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/ICkqZcqy5WXJ/images/787.png" width="787" height="362">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.14: Tahap 3: Masukkan elemen kedua ke dalam ember.</p>
+                        <figure class="image" data-ckbox-resource-id="lpNfWI0Tbqzz">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/779.webp 779w" type="image/webp" sizes="(max-width: 779px) 100vw, 779px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/lpNfWI0Tbqzz/images/779.png" width="779" height="351">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.15: Tahap 4: Masukkan elemen ketiga ke dalam ember.</p>
+                        <figure class="image" data-ckbox-resource-id="7J_FWkZSS5vt">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/789.webp 789w" type="image/webp" sizes="(max-width: 789px) 100vw, 789px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/7J_FWkZSS5vt/images/789.png" width="789" height="354">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.16: Tahap 5: Masukkan elemen keempat ke dalam ember</p>
+                        <figure class="image" data-ckbox-resource-id="E6J11skem9mw">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/780.webp 780w" type="image/webp" sizes="(max-width: 780px) 100vw, 780px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/E6J11skem9mw/images/780.png" width="780" height="339">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.17: Tahap 6: Masukkan elemen kelima ke dalam ember.</p>
+                        <figure class="image" data-ckbox-resource-id="Pk5e-KziyAju">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/776.webp 776w" type="image/webp" sizes="(max-width: 776px) 100vw, 776px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/Pk5e-KziyAju/images/776.png" width="776" height="349">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.18: Tahap 7: Masukkan elemen keenam ke dalam ember.</p>
+                        <figure class="image" data-ckbox-resource-id="zgZLFBEq5fNZ">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/770.webp 770w" type="image/webp" sizes="(max-width: 770px) 100vw, 770px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/zgZLFBEq5fNZ/images/770.png" width="770" height="207">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.19: Tahap 8: Kondisi ember setelah semua elemen dimasukkan.</p>
+                        <figure class="image" data-ckbox-resource-id="5IiVQXxYp6yJ">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/560.webp 560w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/640.webp 640w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/720.webp 720w,https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/792.webp 792w" type="image/webp" sizes="(max-width: 792px) 100vw, 792px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/5IiVQXxYp6yJ/images/792.png" width="792" height="262">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.20: Tahap 9: Keluarkan isi dari setiap ember, mulai dari ember paling kiri.</p>
+                        <figure class="image" data-ckbox-resource-id="lBkOJN2QbZKN">
+                            <picture>
+                                <source srcset="https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/80.webp 80w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/160.webp 160w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/240.webp 240w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/320.webp 320w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/400.webp 400w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/480.webp 480w,https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/517.webp 517w" type="image/webp" sizes="(max-width: 517px) 100vw, 517px"><img src="https://ckbox.cloud/6928450983c7e4cb590e/assets/lBkOJN2QbZKN/images/517.png" width="517" height="56">
+                            </picture>
+                        </figure>
+                        <p style="text-align:center;">Gambar 3.21: Tahap 10: Pengurutan selesai.</p>
+                        <p>Implementasi Counting Sort</p>
+                        <p>Ide ini dapat diwujudkan dengan menyiapkan tabel frekuensi yang berperan sebagai ”ember”. Untuk setiap nilai elemen yang mungkin, catat frekuensi kemunculannya. Terakhir, iterasi tabel frekuensi dari elemen terkecil sampai elemen terbesar. Tabel frekuensi dapat diimplementasikan dengan array sederhana. Contoh implementasi Counting Sort dapat dilihat pada Algoritma 15</p>
+                        <p><strong>Algoritma 15</strong></p>
+                        <div class="container masukan">
+                            <pre><code class="language-plaintext">procedure COUNTINGSORT(h)
+//Catat frekuensinya
+for i ← 1, N do
+    x ← h[i]
+    ftable[x] ← ftable[x] +1
+end for
+//Tuang kembali ke h[]
+index ← 1
+for i ← 1, 100000 do
+    for j ← 1, ftable[i] do
+        h[index] ← i
+        index ← index+1
+    end for
+end for
+end procedure</code></pre>
+                        </div>
+                        <p class="fs-4 fw-semibold">Contoh Kode</p>
+                        <p>Dapat diperhatikan bahwa kompleksitas counting sort adalah O(N + M), dengan M adalah rentang nilai data. Jika M tidak terlalu besar, maka counting sort dapat bekerja dengan sangat cepat. Lebih tepatnya, counting sort merupakan opsi yang sangat baik jika datanya memiliki rentang yang kecil, misalnya data tentang usia penduduk yang rentangnya hanya [0, 125]. Bandingkan dengan algoritma pengurutan lain yang kompleksitasnya O(N<sup>2</sup>)!</p>
+                        <p>Karena perlu membuat tabel frekuensi, maka counting sort hanya dapat digunakan ketika rentang nilai datanya kecil, misalnya ≤ 107 . Selain itu, algoritma ini hanya dapat mengurutkan data diskret. Data seperti bilangan pecahan tidak dapat diurutkan secara tepat. Alternatifnya, untuk menangani data dengan rentang yang besar atau data yang tidak diskret, kita bisa menggunakan radix sort yang memiliki konsep yang mirip dengan counting sort.</p>
+                        
+                        <p class="fs-4 fw-semibold">Rangkuman</p>
+                        <p style="text-align:center;">Tabel 3.3: Perbandingan beberapa Algoritma Pengurutan.</p>
+                        <figure class="table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Algoritma</td>
+                                        <td>Kompleksitas</td>
+                                        <td>Keterangan</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bubble sort</td>
+                                        <td>O(N<sup>2</sup>)</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Selection sort</td>
+                                        <td>O(N<sup>2</sup>)</td>
+                                        <td>Dapat digunakan untuk partial sort dalam O(KN)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insertion sort</td>
+                                        <td>O(N<sup>2</sup>)</td>
+                                        <td>Sangat cepat jika data hampir terurut, kasus terbaiknya O(N)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Counting sort</td>
+                                        <td>O(N + M)</td>
+                                        <td>Cepat hanya untuk data dengan rentang yang kecil</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </figure>
+                    
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+    
+  </section></main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">iLanding</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0px";  
+      document.getElementById("header").style.transform = "scale(100%,100%)";
+  } else {
+    document.getElementById("header").style.top = "-60px";  
+    document.getElementById("header").style.transform = "scale(0%,0%)";
+  }
+  prevScrollpos = currentScrollPos;
+  }
+</script>
+
+</html>
