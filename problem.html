@@ -10,15 +10,16 @@
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/style5.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-
+    
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style5.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]--><script>document.documentElement.className = 'js';</script>
@@ -100,31 +101,34 @@
 			<div class="search__related">
 				<div class="search__suggestion">
 					<h3>May We Suggest?</h3>
-					<p>#drone #funny #catgif #broken #lost #hilarious #good #red #blue #nono #why #yes #yesyes #aliens #green</p>
-				</div>
-				<div class="search__suggestion">
-					<h3>Needle, Where Art Thou?</h3>
-					<p>#broken #lost #good #red #funny #lala #hilarious #catgif #blue #nono #why #yes #yesyes #aliens #green #drone</p>
+					<p>#bruteforce #divide #xorificator #UVA #codeforce #pointer</p>
 				</div>
 			</div>
 		</div><!-- /search -->
-
-      
+    <script src="assets/js/demo5.js"></script>
   
-		<script src="assets/js/demo5.js"></script>
     <script>
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("header").style.top = "0px";  
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("header").style.top = "0px";  
           document.getElementById("header").style.transform = "scale(100%,100%)";
-      } else {
-        document.getElementById("header").style.top = "-60px";  
-        document.getElementById("header").style.transform = "scale(0%,0%)";
+        } else {
+          document.getElementById("header").style.top = "-60px";  
+          document.getElementById("header").style.transform = "scale(0%,0%)";
+        }
+        prevScrollpos = currentScrollPos;
       }
-      prevScrollpos = currentScrollPos;
-      }
-    </script>
+      </script>
+
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 	</body>
+  
 </html>

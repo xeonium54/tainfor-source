@@ -1,13 +1,3 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2016, Codrops
- * http://www.codrops.com
- */
 ;(function(window) {
 
 	'use strict';
@@ -38,6 +28,7 @@
 	}
 
 	function openSearch() {
+		// document.getElementsByTagName("body").style.zIndex = "999"; 
 		lastFocusedElement = document.activeElement;
 		mainContainer.classList.add('main-wrap--move');
 		searchContainer.classList.add('search--open');
@@ -47,6 +38,7 @@
 	}
 
 	function closeSearch() {
+		// document.getElementsByTagName("body").style.overflow = "visible"; 
 		mainContainer.classList.remove('main-wrap--move');
 		searchContainer.classList.remove('search--open');
 		inputSearch.blur();

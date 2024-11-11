@@ -10,11 +10,21 @@
 .js .search {
 	position: fixed;
 	z-index: 1000;
+	overflow: visible;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100vh;
 }
+
+/* .js .search:before{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+} */
 
 .js .search::before {
 	content: '';
@@ -199,6 +209,7 @@
 	transform-origin: 0% 50%;
 	transition: transform 0.3s;
 }
+
 
 .js .search--open .search__input {
 	transform: scale3d(1,1,1);

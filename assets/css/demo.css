@@ -4,9 +4,15 @@
 	box-sizing: border-box;
 }
 
+a {
+	color: var(--accent-color);
+	text-decoration: none;
+	transition: 0.3s;
+  }
+
 body {
-	font-family: 'Inconsolata', 'Monaco', monospace;
-	overflow: hidden;
+	/* font-family: 'Inconsolata', 'Monaco', monospace; */
+	/* overflow: hidden; */
 	margin: 0;
 	color: #a0a2ae;
 	background: #282b2f;
@@ -46,6 +52,7 @@ body {
 .btn--search {
 	font-size: 1.5em;
 }
+
 
 .btn--hidden {
 	pointer-events: none;
@@ -116,7 +123,7 @@ a,
 
 .codrops-header__side,
 .search-wrap {
-	margin: 0 0 0 auto;
+	margin: 0 0 0 19%;
 }
 
 
