@@ -53,6 +53,19 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
 }
 
 a {
@@ -2280,4 +2293,18 @@ section,
 --------------------------------------------------------------*/
 .course section{
   padding-top: 160px;
+}
+
+.aboutus{
+  background-color: var(--accent-color);
+}
+
+.parallaxaboutus{
+  /* background-image: url("../img/hero.png"); */
+/* Create the parallax scrolling effect */
+  background-position:90% 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  overflow: hidden;
 }
