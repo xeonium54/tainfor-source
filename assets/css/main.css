@@ -2295,6 +2295,24 @@ section,
   padding-top: 160px;
 }
 
+.course-content p,.course-content h1,.course-content h2,.course-content h3{
+  font-family: var(--default-font);
+  color: var(--heading-color);
+  
+}
+
+.course-content h1,.course-content h2,.course-content h3{
+  font-family: var(--default-font);
+  color: var(--heading-color);
+  font-weight: 900;
+}
+
+
+
+.course-content code{
+  color: var(--nav-dropdown-hover-color);
+}
+
 .aboutus{
   background-color: var(--accent-color);
 }
